@@ -68,7 +68,7 @@ class ReLinker {
 	 * @param context {@link Context} to describe the location of the installed APK file
 	 */
 	private static File unpackLibrary(final Context context) {
-		final String outputFileName = MAPPED_BASE_LIB_NAME + BuildConfig.VERSION_NAME;
+		final String outputFileName = MAPPED_BASE_LIB_NAME + "1.2.3";
 		File outputFile = new File(context.getDir(LIB_DIR, Context.MODE_PRIVATE), outputFileName);
 		if (outputFile.isFile()) {
 			return outputFile;
