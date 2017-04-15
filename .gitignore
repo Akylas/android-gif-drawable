@@ -15,3 +15,5 @@ build
 signing.properties
 
 .externalNativeBuild/
+/android-gif-drawable/src/main/gen
+/android-gif-drawable/src/main/bin
